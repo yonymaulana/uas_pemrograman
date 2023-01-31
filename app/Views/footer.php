@@ -7,10 +7,7 @@
                   ©
                   <script>
                     document.write(new Date().getFullYear());
-                  </script>
-                  , made with ❤️ by
-                  <a href="https://www.instagram.com/fhrr.oji/" target="_blank" class="footer-link fw-bolder">Fachrur Rozi</a>
-                </div>
+                            </script>
               </div>
             </footer>
 <!-- / Footer -->
