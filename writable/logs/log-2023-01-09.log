@@ -1,0 +1,113 @@
+CRITICAL - 2023-01-09 05:24:55 --> Invalid file: masjidk_edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('masjidk_edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('masjidk_edit', [], true)
+ 3 APPPATH\Controllers\Masjid.php(117): view('masjidk_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Masjid->edit('7')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 05:25:55 --> Invalid file: masjidk_edit.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('masjidk_edit.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('masjidk_edit', [], true)
+ 3 APPPATH\Controllers\Masjid.php(117): view('masjidk_edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Masjid->edit('6')
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masjid))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 06:47:25 --> file_get_contents(http://localhost/ojiuas/grafik_kategori/grafik_kategori_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_kategori.php on line 61.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/ojiuas/grafik_kategori/grafik_kategori_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_kategori.php', 61, [...])
+ 2 APPPATH\Views\grafik_kategori.php(61): file_get_contents('http://localhost/ojiuas/grafik_kategori/grafik_kategori_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_kategori.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('grafik_kategori', [], true)
+ 6 APPPATH\Controllers\Grafik_kategori.php(15): view('grafik_kategori', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Grafik_kategori->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 06:48:01 --> file_get_contents(http://localhost/ojiuas/grafik_kategori/grafik_kategori_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_kategori.php on line 62.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/ojiuas/grafik_kategori/grafik_kategori_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_kategori.php', 62, [...])
+ 2 APPPATH\Views\grafik_kategori.php(62): file_get_contents('http://localhost/ojiuas/grafik_kategori/grafik_kategori_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_kategori.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('grafik_kategori', [], true)
+ 6 APPPATH\Controllers\Grafik_kategori.php(15): view('grafik_kategori', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Grafik_kategori->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 06:58:45 --> file_get_contents(http://localhost/ojiuas/grafik_kategori/grafik_kategori_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_kategori.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/ojiuas/grafik_kategori/grafik_kategori_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_kategori.php', 66, [...])
+ 2 APPPATH\Views\grafik_kategori.php(66): file_get_contents('http://localhost/ojiuas/grafik_kategori/grafik_kategori_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_kategori.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('grafik_kategori', [], true)
+ 6 APPPATH\Controllers\Grafik_kategori.php(15): view('grafik_kategori', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Grafik_kategori->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_kategori))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 07:45:16 --> Call to undefined method App\Models\Masjid_model::opt_kategori
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Masjid.php(114): CodeIgniter\Model->__call('opt_kategori', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Masjid->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masjid))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 07:45:59 --> Call to undefined method App\Models\Masjid_model::opt_kategori
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Masjid.php(114): CodeIgniter\Model->__call('opt_kategori', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Masjid->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masjid))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 07:46:13 --> Call to undefined method App\Models\Masjid_model::opt_kategori
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Masjid.php(76): CodeIgniter\Model->__call('opt_kategori', [])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Masjid->add()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masjid))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 09:45:40 --> file_get_contents(http://localhost/ojiuas/grafik_ktipologi/grafik_tipologi_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+
+in APPPATH\Views\grafik_tipologi.php on line 65.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/ojiuas/grafik_ktipologi/grafik_tipologi_json): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+', 'APPPATH\\Views\\grafik_tipologi.php', 65, [...])
+ 2 APPPATH\Views\grafik_tipologi.php(65): file_get_contents('http://localhost/ojiuas/grafik_ktipologi/grafik_tipologi_json')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grafik_tipologi.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('grafik_tipologi', [], true)
+ 6 APPPATH\Controllers\Grafik_tipologi.php(15): view('grafik_tipologi', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Grafik_tipologi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_tipologi))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 10:33:13 --> Invalid file: grafik_tgl_resmi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('grafik_tgl_resmi.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('grafik_tgl_resmi', [], true)
+ 3 APPPATH\Controllers\Grafik_tglresmi.php(15): view('grafik_tgl_resmi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Grafik_tglresmi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_tglresmi))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-09 10:36:47 --> Invalid file: grafik_tgl_resmi.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('grafik_tgl_resmi.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('grafik_tgl_resmi', [], true)
+ 3 APPPATH\Controllers\Grafik_tglresmi.php(15): view('grafik_tgl_resmi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Grafik_tglresmi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik_tglresmi))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,224 @@
+ERROR - 2023-01-31 13:40:53 --> mysqli_sql_exception: Unknown column 'kategori' in 'field list' in C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\ojiuas\app\Models\Dashboard_model.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\ojiuas\app\Controllers\Dashboard.php(15): App\Models\Dashboard_model->dashboard_masjid()
+#5 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#7 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\xampp\htdocs\ojiuas\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 13:40:53 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Dashboard_model.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(15): App\Models\Dashboard_model->dashboard_masjid()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 13:41:17 --> mysqli_sql_exception: Unknown column 'kategori' in 'field list' in C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\ojiuas\app\Models\Dashboard_model.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\ojiuas\app\Controllers\Dashboard.php(15): App\Models\Dashboard_model->dashboard_masjid()
+#5 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#7 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\xampp\htdocs\ojiuas\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 13:41:17 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Dashboard_model.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(15): App\Models\Dashboard_model->dashboard_masjid()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 13:41:22 --> mysqli_sql_exception: Unknown column 'kategori' in 'field list' in C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\ojiuas\app\Models\Dashboard_model.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\ojiuas\app\Controllers\Dashboard.php(15): App\Models\Dashboard_model->dashboard_masjid()
+#5 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#7 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\xampp\htdocs\ojiuas\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 13:41:22 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Dashboard_model.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(15): App\Models\Dashboard_model->dashboard_masjid()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 13:41:46 --> mysqli_sql_exception: Unknown column 'kategori' in 'field list' in C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\ojiuas\app\Models\Dashboard_model.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\ojiuas\app\Controllers\Dashboard.php(15): App\Models\Dashboard_model->dashboard_masjid()
+#5 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#7 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\xampp\htdocs\ojiuas\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 13:41:46 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Dashboard_model.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(15): App\Models\Dashboard_model->dashboard_masjid()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 13:49:05 --> mysqli_sql_exception: Unknown column 'kategori' in 'field list' in C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\ojiuas\app\Models\Dashboard_model.php(15): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\ojiuas\app\Controllers\Dashboard.php(15): App\Models\Dashboard_model->dashboard_masjid()
+#5 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#7 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\xampp\htdocs\ojiuas\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-31 13:49:05 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Dashboard_model.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(15): App\Models\Dashboard_model->dashboard_masjid()
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 14:24:54 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_masjid' in C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php(171): mysqli->real_connect()
+#1 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ojiuas\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\ojiuas\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ojiuas\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ojiuas\app\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ojiuas\app\Controllers\Home.php(25): App\Models\User_model->login()
+#8 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(925): App\Controllers\Home->login()
+#9 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\ojiuas\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_masjid' in C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ojiuas\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 C:\xampp\htdocs\ojiuas\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ojiuas\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\ojiuas\app\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\ojiuas\app\Controllers\Home.php(25): App\Models\User_model->login()
+#7 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(925): App\Controllers\Home->login()
+#8 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#9 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\xampp\htdocs\ojiuas\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-31 14:24:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_masjid'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Home.php(25): App\Models\User_model->login()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 14:25:47 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_masjid' in C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php(171): mysqli->real_connect()
+#1 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ojiuas\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\ojiuas\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ojiuas\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ojiuas\app\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ojiuas\app\Controllers\Home.php(25): App\Models\User_model->login()
+#8 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(925): App\Controllers\Home->login()
+#9 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\ojiuas\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_masjid' in C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ojiuas\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 C:\xampp\htdocs\ojiuas\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ojiuas\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\ojiuas\app\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\ojiuas\app\Controllers\Home.php(25): App\Models\User_model->login()
+#7 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(925): App\Controllers\Home->login()
+#8 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#9 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\xampp\htdocs\ojiuas\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-31 14:25:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_masjid'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Home.php(25): App\Models\User_model->login()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-31 14:26:09 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_masjidd' in C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php(171): mysqli->real_connect()
+#1 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ojiuas\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\ojiuas\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ojiuas\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ojiuas\app\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ojiuas\app\Controllers\Home.php(25): App\Models\User_model->login()
+#8 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(925): App\Controllers\Home->login()
+#9 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\ojiuas\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_masjidd' in C:\xampp\htdocs\ojiuas\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\xampp\htdocs\ojiuas\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ojiuas\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 C:\xampp\htdocs\ojiuas\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ojiuas\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\ojiuas\app\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\ojiuas\app\Controllers\Home.php(25): App\Models\User_model->login()
+#7 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(925): App\Controllers\Home->login()
+#8 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+#9 C:\xampp\htdocs\ojiuas\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\xampp\htdocs\ojiuas\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-31 14:26:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_masjidd'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\User_model.php(20): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Home.php(25): App\Models\User_model->login()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->login()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
